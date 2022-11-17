@@ -1,0 +1,28 @@
+.homepageContainer {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  place-content: center;
+}
+
+.homepageContainer h1 {
+  text-align: center;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm input {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+input[type="submit"] {
+  padding: 1em;
+
+  background-color: darkorange;
+  border: 1px solid red;
+}
